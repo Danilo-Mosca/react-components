@@ -24,7 +24,6 @@ img {
 
 body {
     background-color: #0E0E0E;
-    width: 1400px;
     margin: 0 auto;
     font-family: "Roboto", serif;
 }
@@ -52,7 +51,7 @@ ul {
 }
 
 .cards {
-    width: 500px;
+    width: 350px;
     margin: 0 auto;
     border-radius: 20px;
 }
@@ -74,4 +73,5 @@ h1 {
 }
 .img-custom {
     border-radius: 20px 20px 0 0;
+    width: 100%;
 }

@@ -3,7 +3,7 @@ function Header() {
     const title = "Il Mio blog";
     return (
         <>
-            <header>
+            <header className="container">
                 <h1>{title}</h1>
             </header>
         </>

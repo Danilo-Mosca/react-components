@@ -10,9 +10,18 @@ function App() {
   return (
     <>
       <Header />
-      <main>
-        <Card />
-      </main>
+
+    
+        <main className="container">
+          <div className="row">
+              <Card />
+              <Card />
+              <Card />
+              <Card /> 
+              <Card />
+          </div>
+        </main>
+
       <Footer />
     </>
   );
