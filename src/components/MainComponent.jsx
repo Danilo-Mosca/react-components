@@ -7,7 +7,7 @@ export default function MainComponent() {
     return (
         // Mappo props cities per popolare le card
         arrayCity.map((city) => {
-            return <Card citiesProps={city} />
+            return <Card citiesProps={city} key={city.id} />
         }
         )
     );
